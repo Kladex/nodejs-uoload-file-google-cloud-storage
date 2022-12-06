@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-upload-file-google-cloud-storage",
+  "version": "1.0.0",
+  "main": "server.js",
+  "keywords": [],
+  "author": "kant",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "start:dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^6.7.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
